@@ -18,11 +18,11 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  z-index: -1;
 }
 
 .logo {
   background-image: url(../images/logo_place_header.svg);
+  z-index: 0;
 }
 
 .logo_place_header {
@@ -55,6 +55,7 @@
 
 .header__link {
   z-index: 2;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -84,6 +85,10 @@
 
 .page__description {
   margin-top: 100px;
+}
+
+.description__link{
+  text-decoration: none;
 }
 
 .two-columns{
@@ -127,6 +132,7 @@
 
 .page__digits {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -187,4 +193,51 @@
   margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  position: relative;
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  align-content: center;
+  margin-top: 100px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.feynman__img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
 }
