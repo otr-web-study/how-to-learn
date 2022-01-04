@@ -143,6 +143,19 @@
   font-weight: bold;
 }
 
+.section-title_theme_dark {
+  color: white;
+  padding-top: 90px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
 .digits__section_title {
   margin-top: 0;
   margin-bottom: 0;
@@ -195,6 +208,10 @@
   font-size: 18px;
 }
 
+.table_theme_dark {
+  margin-bottom: 90px;
+}
+
 .feynman {
   background-color: #f2f2f2;
   position: relative;
@@ -240,4 +257,11 @@
   bottom: 0;
   width: 867px;
   height: 637px;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
