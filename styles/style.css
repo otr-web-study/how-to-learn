@@ -55,6 +55,7 @@
 .header__link {
   z-index: 2;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -86,20 +87,26 @@
   margin-top: 100px;
 }
 
-.description__link{
+.description__link {
+  line-height: 1.2;
+  font-size: 18px;
   text-decoration: none;
+  color: #2f80ed;
 }
 
-.two-columns{
+.two-columns {
   display: flex;
   width: 80%;
   justify-content: space-between;
 }
 
+.two-columns_h2-style_clear {
+  font-size: 0;
+  margin: 0;
+  font-weight: normal;
+}
 .two-columns__brief {
   width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
 }
 
 .two-columns__main-text {
@@ -110,6 +117,7 @@
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -222,6 +230,7 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+  color: #2f80ed;
   z-index: 1;
 }
 
