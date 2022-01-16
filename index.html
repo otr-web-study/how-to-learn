@@ -14,7 +14,7 @@
       <p class="header__subtitle">
         Какие современные и эффективные подходы к 
         обучению вы можете использовать в своей жизни?
-        <a class="header__link" href="#">Узнать&rarr;</a>
+        <a class="header__link selection-effect" href="#">Узнать&rarr;</a>
       </p>
       <div class="header__main-illustration"></div>
       <div class="header__square-pic rotation"></div>
@@ -126,24 +126,16 @@
         <div class="video__iframes">
           <iframe
             class="video__iframe"
-            id="ytplayer"
-            type="text/html"
             width="515"
             height="316"
             src="https://www.youtube.com/embed/arj7oStGLkU"
-            frameborder="0"
-            allowfullscreen
-          >Видео на TED</iframe>
+            allowfullscreen></iframe>
           <iframe
             class="video__iframe"
-            id="ytplayer"
-            type="text/html"
             width="515"
             height="316"
             src="https://www.youtube.com/embed/5MgBikgcWnY"
-            frameborder="0"
-            allowfullscreen
-          >Видео на TED</iframe>
+            allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -162,11 +154,12 @@
               чем у тех, кому всё ясно с первого взгляда.
             </p>
           </div>
+        </div>
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a class="feynman__link" href="#">Подробнее&rarr;</a>
+        <a class="feynman__link selection-effect" href="#">Подробнее&rarr;</a>
         <img class="feynman__img" src="./images/feynman.png" alt="Фейнман">
       </section>
       <section class="digits">
@@ -216,17 +209,19 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир - школа</h2>
-          <cite class="khan__quote">
+          <div class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов 
             студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать 
             всем, кто занимается образованием — так учащиеся повсюду смогут получить
             навыки и знания, которые приносят успех в школе, карьере и жизни.
-          </cite>
+          </div>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
-            <a class="khan__buy-link" href="#">Купить книгу&rarr;</a>
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Картинка книга Хан">
+            <a class="khan__buy-link selection-effect" href="#">
+              Купить книгу&rarr;
+            </a>
           </div>
         </div>
       </section>
@@ -269,14 +264,28 @@
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">9</h3>
-            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+            <p class="table__text table__text_theme_dark">
+              Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">10</h3>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
+      </section>
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">
+          Больше материалов о техниках и лайфхаках обучения
+        </p>
+        <nav class="resources__logo-zone">
+          <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип арзамас">
+          <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N1">
+          <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип стрелка">
+          <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип полка">
+        </nav>
       </section>
     </main>
     <footer class="footer">
@@ -288,23 +297,23 @@
         <div class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
           <nav class="footer__column-links">
-            <a class="footer__column-link" href="#">Главная</a>
-            <a class="footer__column-link" href="#">Концепция</a>
-            <a class="footer__column-link" href="#">Наставники</a>
+            <a class="footer__column-link selection-effect" href="#">Главная</a>
+            <a class="footer__column-link selection-effect" href="#">Концепция</a>
+            <a class="footer__column-link selection-effect" href="#">Наставники</a>
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
           <nav class="footer__column-links">
-            <a class="footer__column-link" href="#">
+            <a class="footer__column-link selection-effect" href="#">
               <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="Иконка Фейсбук">
               Facebook
             </a>
-            <a class="footer__column-link" href="#">
+            <a class="footer__column-link selection-effect" href="#">
               <img class="footer__social-icon" src="images/vk_color_white.svg" alt="Иконка ВКонтакте">
               ВКонтакте
             </a>
-            <a class="footer__column-link" href="#">
+            <a class="footer__column-link selection-effect" href="#">
               <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="Иконка Инстаграм">
               Instagram
             </a>
