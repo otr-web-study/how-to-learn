@@ -1,4 +1,7 @@
+.selection-effect {
+    transition: opacity 0.4s;
+}
+
 .selection-effect:hover {
     opacity: 0.5;
-    transition: opacity 0.4s;
 }
