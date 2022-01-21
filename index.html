@@ -20,15 +20,6 @@
         <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
-        <!-- Антон, добрый день. Спасибо за теплые слова и особенно за ревью.
-        Возник вопрос по поводу применения элементов в секциях. В первом спринте,
-        вдохновившись теорией по БЭМ, я везде принялся выносить позиционирование в
-        отдельные элементы, но предыдущий ревьюер попросил меня удалить все элементы,
-        которые не были заявлены в брифе. Эпизод с page__description вероятно ускользнул
-        от нашего с ним взгляда. Я без каких-либо претензий к предыдущему ревьюеру,
-        он молодец, тоже провел огромную работу со мной. Вы рекомендуете все же вернуть
-        эти элементы к первоначальному их состоянию? Я просто несколько опасаюсь, не
-        придется ли мне потом опять все исправлять. :) -->
         <section class="description page__description">
           <div class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -53,7 +44,7 @@
             </div>
           </div>
         </section>
-        <section class="techniques">
+        <section class="techniques page__techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
           <ul class="cards">
@@ -114,13 +105,10 @@
             </li>
           </ul>
         </section>
-        <section class="video">
+        <section class="video page__video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <ul class="video__iframes">
-            <!-- Антон, вынужден был добавить новый элемент для указания фиксированного отступа между элементами.
-            Насколько я понял, в списках никак нельзя обойтись без элементов с тегом li, эта дополнительная обертка
-            ломает все отступы для элемента "video__iframe" -->
             <li class="video__item">
               <iframe
                 class="video__iframe"
@@ -157,10 +145,9 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть</p>
-          <a class="feynman__link selection-effect" href="#">Подробнее&rarr;</a>
-          <div class="feynman__img"></div>
+          <a class="feynman__link selection-effect" href="#" target="_blank">Подробнее&rarr;</a>
         </section>
-        <section class="digits">
+        <section class="digits page__digits">
           <h2 class="section-title">Цифры и факты</h2>
           <p class="section-subtitle">Про учебу и мозг</p>
           <ul class="table">
@@ -229,7 +216,7 @@
               <a
                 class="khan__buy-link selection-effect"
                 href="#"
-                target="blank">
+                target="_blank">
                 Купить книгу&rarr;
               </a>
             </div>
@@ -305,14 +292,14 @@
           </ul>
           <div class="kaufman__triangle rotation"></div>
         </section>
-        <section class="resources">
+        <section class="resources page__resources">
           <h2 class="section-title">Полезные ресурсы</h2>
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
           <ul class="resources__logo-zone">
             <li>
-              <a href="#" target="blank">
+              <a href="#" target="_blank">
                 <img
                   class="resources__logo selection-effect"
                   src="./images/logo/resources-arzamas.svg"
@@ -320,7 +307,7 @@
               </a>
             </li>
             <li>
-              <a href="#" target="blank">
+              <a href="#" target="_blank">
                 <img
                   class="resources__logo selection-effect"
                   src="./images/logo/resources-n1.svg"
@@ -328,7 +315,7 @@
               </a>
             </li>
             <li>
-              <a href="#" target="blank">
+              <a href="#" target="_blank">
                 <img
                   class="resources__logo selection-effect"
                   src="./images/logo/resources-strelka.svg"
@@ -336,7 +323,7 @@
               </a>
             </li>
             <li>
-              <a href="#" target="blank">
+              <a href="#" target="_blank">
                 <img
                   class="resources__logo selection-effect"
                   src="./images/logo/resources-polka.svg"
@@ -366,7 +353,7 @@
               <a
                 class="footer__column-link selection-effect"
                 href="#"
-                target="blank">
+                target="_blank">
                 <img
                   class="footer__social-icon"
                   src="images/facebook_color_white.svg"
@@ -376,7 +363,7 @@
               <a
                 class="footer__column-link selection-effect"
                 href="#"
-                target="blank">
+                target="_blank">
                 <img
                   class="footer__social-icon"
                   src="images/vk_color_white.svg"
@@ -386,7 +373,7 @@
               <a
                 class="footer__column-link selection-effect"
                 href="#"
-                target="blank">
+                target="_blank">
                 <img
                   class="footer__social-icon"
                   src="images/instagram_color_white.svg"
